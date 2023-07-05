@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/MainActivity_lytMain"
+    android:background="@color/cinzaClaro"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/MainActivity_lytInfoTitulo"
+        android:background="@drawable/shapeverdesuave"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <TextView
+            android:text="Boa Tarde!"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/MainActivity_lblSaudacao"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="Consulte o preço médio atual do seu veículo no mercado Brasileiro"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:paddingRight="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_below="@+id/MainActivity_lytInfoTitulo"
+        android:orientation="vertical"
+        android:id="@+id/MainActivity_lytCorpoMaster"
+        android:paddingHorizontal="20dp"
+        android:paddingTop="25dp"
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/MainActivity_recyclerMenu" />
+    </LinearLayout>
+</RelativeLayout>
