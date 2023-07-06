@@ -36,8 +36,7 @@
     <LinearLayout
         android:layout_below="@+id/MainActivity_lytInfoTitulo"
         android:orientation="vertical"
-        android:id="@+id/MainActivity_lytCorpoMaster"
-        android:paddingHorizontal="20dp"
+        android:id="@+id/MainActivity_lytCorpoMaster"        
         android:paddingTop="25dp"
         android:paddingBottom="10dp"
         android:layout_width="match_parent"
@@ -45,6 +44,7 @@
         <androidx.recyclerview.widget.RecyclerView
             android:minWidth="25px"
             android:minHeight="25px"
+            android:paddingHorizontal="20dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/MainActivity_recyclerMenu" />

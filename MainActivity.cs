@@ -67,10 +67,8 @@ namespace Tabela_FIPE
         {
             List<Menu> menus = new List<Menu>();
 
-            menus.Add(new Menu() { Nome = "Item 1" });
-            menus.Add(new Menu() { Nome = "Item 2" });
-            menus.Add(new Menu() { Nome = "Item 3" });
-
+            menus.Add(new Menu() { Nome = "Consultar veículo" });
+          
             return menus;
         }
 
@@ -83,7 +81,7 @@ namespace Tabela_FIPE
                 saudacao = "Boa tarde!";            
             else if (Convert.ToInt32(horaAtual) >= 18 && Convert.ToInt32(horaAtual) <= 23)            
                 saudacao = "Boa noite!";            
-            else if (Convert.ToInt32(horaAtual) >= 0 && Convert.ToInt32(horaAtual) <= 6)            
+            else if (Convert.ToInt32(horaAtual) >= 0 && Convert.ToInt32(horaAtual) < 6)            
                 saudacao = "Boa madrugada!";
             
             return saudacao;

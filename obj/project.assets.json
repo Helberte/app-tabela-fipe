@@ -2093,11 +2093,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\helbe\\Downloads\\Tabela-FIPE\\Tabela-FIPE.csproj",
+      "projectUniqueName": "C:\\PROJETOS - XAMARIN\\app-tabela-fipe\\Tabela-FIPE.csproj",
       "projectName": "Tabela-FIPE",
-      "projectPath": "C:\\Users\\helbe\\Downloads\\Tabela-FIPE\\Tabela-FIPE.csproj",
+      "projectPath": "C:\\PROJETOS - XAMARIN\\app-tabela-fipe\\Tabela-FIPE.csproj",
       "packagesPath": "C:\\Users\\helbe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\helbe\\Downloads\\Tabela-FIPE\\obj\\",
+      "outputPath": "C:\\PROJETOS - XAMARIN\\app-tabela-fipe\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
