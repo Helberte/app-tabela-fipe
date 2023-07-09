@@ -959,3 +959,4 @@ C:\PROJETOS - XAMARIN\app-tabela-fipe\obj\Debug\130\stamp\_ConvertResourcesCases
 C:\PROJETOS - XAMARIN\app-tabela-fipe\obj\Debug\130\stamp\_GenerateJavaStubs.stamp
 C:\PROJETOS - XAMARIN\app-tabela-fipe\obj\Debug\130\stamp\_GeneratePackageManagerJava.stamp
 C:\PROJETOS - XAMARIN\app-tabela-fipe\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
+C:\PROJETOS - XAMARIN\app-tabela-fipe\obj\Debug\130\res\drawable\icons8_vehicle_48.png

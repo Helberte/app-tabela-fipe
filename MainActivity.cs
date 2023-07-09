@@ -65,26 +65,26 @@ namespace Tabela_FIPE
 
         public List<Menu> GetMenus()
         {
-            List<Menu> menus = new List<Menu>();
+            List<Menu> menus = new List<Menu>
+            {
+                new Menu() { Titulo = "Consultar veículo", Subtitulo = "Aqui você acha o preço médio do seu veiculo", Icone = Resource.Drawable.icons8_lupa_48 },
+                new Menu() { Titulo = "Meus veículos", Subtitulo = "Aqui você acha os seus veículos salvos.", Icone = Resource.Drawable.icons8_vehicle_48 }
+            };
 
-            menus.Add(new Menu() { Nome = "Consultar veículo" });
-          
             return menus;
         }
 
         public string GetSaudacao()
         {
-            string horaAtual = DateTime.Now.ToString("HH");
-            string saudacao = "Bom dia!";
+            int horaAtual = DateTime.Now.Hour;
 
-            if (Convert.ToInt32(horaAtual) >= 12 && Convert.ToInt32(horaAtual) < 18)            
-                saudacao = "Boa tarde!";            
-            else if (Convert.ToInt32(horaAtual) >= 18 && Convert.ToInt32(horaAtual) <= 23)            
-                saudacao = "Boa noite!";            
-            else if (Convert.ToInt32(horaAtual) >= 0 && Convert.ToInt32(horaAtual) < 6)            
-                saudacao = "Boa madrugada!";
-            
-            return saudacao;
+            return horaAtual switch
+            {
+                < 6  => "Boa madrugada!",
+                < 12 => "Bom dia!",
+                < 18 => "Boa tarde!",
+                _ => "Boa noite!"
+            };
         }
 
         #endregion
@@ -94,11 +94,17 @@ namespace Tabela_FIPE
         public class MenuHolder : RecyclerView.ViewHolder
         {
             public TextView Texto { get; private set; }
-             
+
+            public ImageView Icone { get; private set; }
+
+            public TextView Subtitulo { get; private set; } 
+
             public MenuHolder(View itemView, Action<int> listener) : base(itemView)
             {
-                Texto = itemView.FindViewById<TextView>(Resource.Id.activity_main_Row_lblTexto);
-                
+                Texto     = itemView.FindViewById<TextView> (Resource.Id.activity_main_Row_lblTexto);
+                Icone     = itemView.FindViewById<ImageView>(Resource.Id.activity_main_Row_imgIconeConsulta);
+                Subtitulo = itemView.FindViewById<TextView> (Resource.Id.activity_main_Row_lblSubTitulo); 
+
                 itemView.Click += (sender, e) => listener(base.LayoutPosition);
             }
         }
@@ -120,7 +126,9 @@ namespace Tabela_FIPE
                 Menu item = items[position];
                 MenuHolder holderMenu = holder as MenuHolder;
 
-                holderMenu.Texto.Text = item.Nome;
+                holderMenu.Texto.Text = item.Titulo;
+                holderMenu.Subtitulo.Text = item.Subtitulo;
+                holderMenu.Icone.SetImageResource(item.Icone);
             }
 
             public override RecyclerView.ViewHolder OnCreateViewHolder(ViewGroup parent, int viewType)
@@ -143,7 +151,9 @@ namespace Tabela_FIPE
 
         public class Menu
         {
-            public string Nome { get; set; }
+            public string Titulo { get; set; }
+            public int Icone { get; set; }
+            public string Subtitulo { get; set; } 
         }
 
         #endregion
