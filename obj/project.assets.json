@@ -2087,24 +2087,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\helbe\\.nuget\\packages\\": {},
+    "C:\\Users\\64429-helberte\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\PROJETOS - XAMARIN\\app-tabela-fipe\\Tabela-FIPE.csproj",
+      "projectUniqueName": "D:\\Helberte\\app-tabela-fipe\\Tabela-FIPE.csproj",
       "projectName": "Tabela-FIPE",
-      "projectPath": "C:\\PROJETOS - XAMARIN\\app-tabela-fipe\\Tabela-FIPE.csproj",
-      "packagesPath": "C:\\Users\\helbe\\.nuget\\packages\\",
-      "outputPath": "C:\\PROJETOS - XAMARIN\\app-tabela-fipe\\obj\\",
+      "projectPath": "D:\\Helberte\\app-tabela-fipe\\Tabela-FIPE.csproj",
+      "packagesPath": "C:\\Users\\64429-helberte\\.nuget\\packages\\",
+      "outputPath": "D:\\Helberte\\app-tabela-fipe\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\helbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\64429-helberte\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

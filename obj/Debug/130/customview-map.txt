@@ -3,20 +3,20 @@ adaptive-icon;obj\Debug\130\res\mipmap-anydpi-v26\ic_launcher_round.xml
 androidx.recyclerview.widget.RecyclerView;obj\Debug\130\res\layout\activity_main.xml
 background;obj\Debug\130\res\mipmap-anydpi-v26\ic_launcher.xml
 background;obj\Debug\130\res\mipmap-anydpi-v26\ic_launcher_round.xml
-cache-path;C:\PROJETOS - XAMARIN\app-tabela-fipe\obj\Debug\130\lp\39\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+cache-path;D:\Helberte\app-tabela-fipe\obj\Debug\130\lp\39\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 color;obj\Debug\130\res\values\colors.xml
 color;obj\Debug\130\res\values\ic_launcher_background.xml
 corners;obj\Debug\130\res\drawable\shapebranco.xml
 corners;obj\Debug\130\res\drawable\shapeverdesuave.xml
-external-cache-path;C:\PROJETOS - XAMARIN\app-tabela-fipe\obj\Debug\130\lp\39\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
-external-path;C:\PROJETOS - XAMARIN\app-tabela-fipe\obj\Debug\130\lp\39\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-cache-path;D:\Helberte\app-tabela-fipe\obj\Debug\130\lp\39\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-path;D:\Helberte\app-tabela-fipe\obj\Debug\130\lp\39\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 foreground;obj\Debug\130\res\mipmap-anydpi-v26\ic_launcher.xml
 foreground;obj\Debug\130\res\mipmap-anydpi-v26\ic_launcher_round.xml
 ImageView;obj\Debug\130\res\layout\activity_main_row.xml
 item;obj\Debug\130\res\values\styles.xml
 LinearLayout;obj\Debug\130\res\layout\activity_main.xml
 LinearLayout;obj\Debug\130\res\layout\activity_main_row.xml
-paths;C:\PROJETOS - XAMARIN\app-tabela-fipe\obj\Debug\130\lp\39\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+paths;D:\Helberte\app-tabela-fipe\obj\Debug\130\lp\39\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 RelativeLayout;obj\Debug\130\res\layout\activity_main.xml
 resources;obj\Debug\130\res\values\colors.xml
 resources;obj\Debug\130\res\values\ic_launcher_background.xml

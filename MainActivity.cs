@@ -7,7 +7,6 @@ using AndroidX.AppCompat.App;
 using AndroidX.RecyclerView.Widget;
 using System;
 using System.Collections.Generic;
-using static AndroidX.RecyclerView.Widget.RecyclerView;
 
 namespace Tabela_FIPE
 {
@@ -65,7 +64,7 @@ namespace Tabela_FIPE
 
         public List<Menu> GetMenus()
         {
-            List<Menu> menus = new List<Menu>
+            List<Menu> menus = new()
             {
                 new Menu() { Titulo = "Consultar veículo", Subtitulo = "Aqui você acha o preço médio do seu veiculo", Icone = Resource.Drawable.icons8_lupa_48 },
                 new Menu() { Titulo = "Meus veículos", Subtitulo = "Aqui você acha os seus veículos salvos.", Icone = Resource.Drawable.icons8_vehicle_48 }
